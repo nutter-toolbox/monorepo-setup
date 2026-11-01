@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
   },
   cacheComponents: true,
   partialPrefetching: true,
+  transpilePackages: ["@monorepo-setup/utils"],
   turbopack: {
     rules: {
       "*.css": {
