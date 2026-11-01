@@ -1,0 +1,9 @@
+# This file is used to configure the workspace for pnpm. It defines the packages that are part of the workspace and allows you 
+# to manage dependencies and scripts across multiple packages in a monorepo setup.
+
+# so with the help of this packages setion i can use everthing in this repo as packages accorss the other folder 
+packages: 
+  - 'packages/*' 
+  - 'apps/*'
+allowBuilds:
+  esbuild: false

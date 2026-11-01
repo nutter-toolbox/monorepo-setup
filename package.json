@@ -1,0 +1,16 @@
+{
+  "name": "monorepo-setup",
+  "version": "1.0.0",
+  "scripts": {
+
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.16.1",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.16.1",
+  "type": "module"
+}
