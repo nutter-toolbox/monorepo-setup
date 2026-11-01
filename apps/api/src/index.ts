@@ -2,7 +2,7 @@ import express from "express";
 import { formatCurrency } from "@monorepo-setup/utils";
 
 const app = express()
-const PORT = 3000
+const PORT = 3001
 
 
 
