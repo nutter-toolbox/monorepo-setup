@@ -2,8 +2,8 @@
   "name": "monorepo-setup",
   "version": "1.0.0",
   "scripts": {
-    "dev":"pnpm -r run --parallel dev",
-    "build":"tsc"
+    "dev": "pnpm -r run --parallel dev",
+    "build": "tsc"
   },
   "devEngines": {
     "packageManager": {
@@ -13,5 +13,8 @@
     }
   },
   "packageManager": "pnpm@12.16.1",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "turbo": "^2.11.10"
+  }
 }
